@@ -1,8 +1,9 @@
-# Lab4
+# Lab5
 
 # UML Class Diagram
 
-![Lab3 OOP](https://user-images.githubusercontent.com/77497709/195054363-c1425b0f-21a4-4823-a37c-ed5f50bd15cc.png)
+![Lab5OOP](https://user-images.githubusercontent.com/77497709/198826266-a736b0d7-1504-46d4-a65e-f18456c61aa4.png)
+
 
 # Description:
 
@@ -19,4 +20,8 @@ My project contains an interface `Action` with two methods `tip()` and `complain
 # Scenario
 
 My interaction scenrio runs as follows:
-First of all player interacts with instance of admin. After the greeting message from the both sides, if the number of players is smaller than the nr. of tables then the admin will provide a table for our player. Next Table interacts with player to cheek the table state (instance of table class) which will influence his opinion. Depending of quality index that has table, we will see a message reaction from the palyer. Here we use the menu class and meal class to form the stop list and what will choose the player to eat. Next the instance of waiter is called, which provides different greeting message (depending on polite level), afer he'll take the order and will call cook class. Depending of polite level of waiter he will provide the meal fast or slow (which will influence the player opinion and reputation of restaurant). Here olso is called the meal class which check the meal appearance (has an influence). Afer is created an instance of cleaner class which interacts with player and table to peovide simulation message. Next we create deck to be used in barman class for providing the game simulation for player. 
+First of all player interacts with instance of admin. After the greeting message from the both sides, if the number of players is smaller than the nr. of tables then the admin will provide a table for our player. Next Table interacts with player to cheek the table state (instance of table class) which will influence his opinion. Depending of quality index that has table, we will see a message reaction from the palyer. Here we use the menu class and meal class to form the stop list and what will choose the player to eat. Next the instance of waiter is called, which provides different greeting message (depending on polite level), afer he'll take the order and will call cook class. Depending of polite level of waiter he will provide the meal fast or slow (which will influence the player opinion and reputation of restaurant). Here olso is called the meal class which check the meal appearance (has an influence). Afer is created an instance of cleaner class which interacts with player and table to peovide simulation message. Next we create deck to be used in barman class for providing the game simulation for player.
+
+# Simulation
+
+Simulation runs following the scenario rules. Every second I run a new simulation wich is considered as a new day in restaurant. First is generated a random nr. of players which came to restaurant in this 'day'. I run simulation using while true to run the loop until I explicitly break out of it. In the end I provide a statistic which shows how many meals, deck, menu was changed, how many people arrived in restaurant, the reputation, procent of served people and days past. That simulation can show us how the amount of served customers can increase or decrease the reputation and how good employees may affect the reputation in a better way.
