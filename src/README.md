@@ -2,8 +2,7 @@
 
 # UML Class Diagram
 
-![Lab5OOP](https://user-images.githubusercontent.com/77497709/198826266-a736b0d7-1504-46d4-a65e-f18456c61aa4.png)
-
+![Lab5OOP](https://user-images.githubusercontent.com/77497709/198827596-2ebed854-acf8-4879-b4fb-9d5d06822db9.png)
 
 # Description:
 
