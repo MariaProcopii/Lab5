@@ -21,6 +21,7 @@ public class Table extends Entities {
         if (qualityIndex == 1) {
             player.opinion--;
             System.out.println("Player: " + player.name + " was not glad to sit at the oldest table :(");
+            change("Table");
 
         } else if (qualityIndex == 2) {
             player.opinion++;

@@ -22,22 +22,5 @@ public class Card extends Entities{
         deck.cardValue();
         this.value  = deck.getCardWithValue().get(rank);
     }
-    public void qualityCheck() {
-
-        qualityIndex = random.nextInt(3) + 1;
-        System.out.println("\n---Check the Card state---");
-        super.qualityCheck();
-        if (qualityIndex == 1) {
-            System.out.println("Player: was not glad to play with old cards :(");
-            change("Card");
-
-        } else if (qualityIndex == 2) {
-            System.out.println("Player: was glad to receive a good set of cards :|");
-
-        } else {
-            System.out.println("Player: was pleased to receive the best set of cards :) ");
-        }
-    }
-
 }
 

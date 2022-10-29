@@ -28,10 +28,10 @@ abstract class Entities extends SuperClass {
             if(qualityIndex == 1){
                 System.out.println("Sorry, can you change it ?");
                 switch (string) {
-                    case "Card" -> setCardNr();
                     case "Deck" -> setDeckNr();
                     case "Meal" -> setMealNr();
                     case "Menu" -> setMenuNr();
+                    case "Table"-> setTableNr();
                 }
             }
         }

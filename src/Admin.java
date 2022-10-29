@@ -53,14 +53,15 @@ public class Admin extends Human{
 
     public void printStatistic(){
         System.out.println("\n========================");
-        System.out.print("Card changed: " + cardNr + "\n" +
+        System.out.print(
                 "Deck changed: " + deckNr + "\n" +
+                "Table changed: " + tableNr + "\n" +
                 "Menu changed: " + menuNr + "\n" +
                 "Meal changed: " + mealNr + "\n" +
                 "Players arrived: " + playerNr + "\n" +
                 "Players served: " + servicedPlayers + "\n" +
-                "Reputation: " + reputation + "\n" +
                 "Procent: " + servicedPlayers * 100/playerNr + " %\n" +
+                "Reputation: " + reputation + "\n" +
                 "Days Past: " + nrOfDays);
     }
 }
